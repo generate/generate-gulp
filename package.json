@@ -1,0 +1,39 @@
+{
+  "name": "generate-gulp",
+  "description": "Generate starter gulp plugins and gulpfiles.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/generate-gulp",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/generate-gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/generate-gulp/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/generate-gulp/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "generate": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
