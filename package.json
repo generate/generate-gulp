@@ -1,6 +1,6 @@
 {
   "name": "generate-gulp",
-  "description": "Generate starter gulp plugins and gulpfiles.",
+  "description": "Generate a node.js project with a starter gulp plugin or gulpfile.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/generate-gulp",
   "author": {
@@ -35,5 +35,11 @@
     "mocha": "*",
     "should": "*"
   },
-  "keywords": []
+  "keywords": [
+    "generate",
+    "generate-generator",
+    "generator",
+    "gulp",
+    "plugin"
+  ]
 }
