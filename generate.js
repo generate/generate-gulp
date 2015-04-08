@@ -8,13 +8,13 @@ app.task('dotfiles', function () {
     .pipe(app.dest(process.cwd()));
 });
 
-app.task('normalizer', function () {
-  app.templates('normalizer.js')
+app.task('plugin', function () {
+  app.templates('plugin.js')
     .pipe(app.dest(process.cwd()));
 });
 
-app.task('plugin', function () {
-  app.templates('plugin.js')
+app.task('gulpfile', function () {
+  app.templates('gulpfile.js')
     .pipe(app.dest(process.cwd()));
 });
 
@@ -24,7 +24,4 @@ app.task('wrapped', function () {
     .pipe(app.dest(process.cwd()));
 });
 
-app.task('default', function () {
-  app.templates('*.js')
-    .pipe(app.dest(process.cwd()));
-});
+app.task('default', ['dotfiles', 'plugin', 'gulpfile']);
